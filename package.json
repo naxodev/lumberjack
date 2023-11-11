@@ -6,13 +6,13 @@
   "scripts": {
     "postinstall": "node ./decorate-angular-cli.js",
     "build": "nx run-many --target=build --all",
-    "ci": "yarn format:check && yarn lint && yarn test && yarn build && yarn e2e",
+    "ci": "pnpm format:check && pnpm lint && pnpm test && pnpm build && pnpm e2e",
     "clean": "rimraf dist coverage reports",
     "configure-sonar-report-paths": "node tools/scripts/configure-sonar-report-paths.mjs",
     "delete-path-alias": "node tools/scripts/delete-path-alias.mjs",
     "e2e": "nx run-many --target=e2e --all --parallel=1",
-    "format": "yarn nx format:write",
-    "format:check": "yarn nx format:check",
+    "format": "pnpm nx format:write",
+    "format:check": "pnpm nx format:check",
     "lint": "nx run-many --target=lint --all --max-warnings=0",
     "nx": "nx",
     "start": "nx serve",
@@ -20,12 +20,10 @@
   },
   "engines": {
     "node": "18.12.1",
-    "npm": "Use the Yarn Classic (1.x) CLI instead of npm",
-    "yarn": "1.22.19"
+    "npm": "Use the pnpm Classic (1.x) CLI instead of npm"
   },
   "volta": {
-    "node": "18.12.1",
-    "yarn": "1.22.19"
+    "node": "18.12.1"
   },
   "dependencies": {
     "@angular/animations": "15.2.8",
