@@ -1,12 +1,11 @@
 {
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
-  "npmScope": "ngworker",
   "affected": {
     "defaultBase": "main"
   },
   "cli": {
     "defaultCollection": "@nx/angular",
-    "packageManager": "yarn"
+    "packageManager": "pnpm"
   },
   "tasksRunnerOptions": {
     "default": {
@@ -32,7 +31,6 @@
       "style": "scss"
     }
   },
-  "defaultProject": "examples-lumberjack-app",
   "targetDefaults": {
     "build": {
       "dependsOn": [

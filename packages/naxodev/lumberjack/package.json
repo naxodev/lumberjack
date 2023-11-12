@@ -1,0 +1,8 @@
+{
+  "name": "naxodev/lumberjack",
+  "version": "0.0.1",
+  "dependencies": {
+    "@swc/helpers": "~0.4.11"
+  },
+  "devDependencies": {}
+}

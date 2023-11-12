@@ -17,6 +17,7 @@
             "enforceBuildableLibDependency": true,
             "allowCircularSelfDependency": true,
             "allow": [],
+            "buildTargets": ["build", "build-package"],
             "depConstraints": [
               {
                 "sourceTag": "scope:public",
@@ -37,6 +38,26 @@
               {
                 "sourceTag": "type:e2e",
                 "onlyDependOnLibsWithTags": ["type:app"]
+              },
+              {
+                "sourceTag": "technology:angular",
+                "onlyDependOnLibsWithTags": ["technology:angular", "technology:javascript"]
+              },
+              {
+                "sourceTag": "technology:qwik",
+                "onlyDependOnLibsWithTags": ["technology:qwik", "technology:javascript"]
+              },
+              {
+                "sourceTag": "technology:solid",
+                "onlyDependOnLibsWithTags": ["technology:solid", "technology:javascript"]
+              },
+              {
+                "sourceTag": "technology:react",
+                "onlyDependOnLibsWithTags": ["technology:react", "technology:javascript"]
+              },
+              {
+                "sourceTag": "technology:javascript",
+                "onlyDependOnLibsWithTags": ["technology:javascript"]
               }
             ]
           }
@@ -87,12 +108,12 @@
             "group-ordering": [
               {
                 "name": "project root",
-                "match": "^@(?!(ngworker|internal)).*|^[a-zA-Z].*",
+                "match": "^@(?!(naxodev|internal)).*|^[a-zA-Z].*",
                 "order": 20
               },
               {
                 "name": "internal imports",
-                "match": "^@(ngworker|internal).*",
+                "match": "^@(naxodev|internal).*",
                 "order": 30
               },
               { "name": "parent directories", "match": "^\\.\\.", "order": 40 },

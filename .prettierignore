@@ -5,6 +5,9 @@
 /reports
 /.angular/
 .docusaurus/
+**/.lib.swcrc
 
 # Generated files
 packages/**/CHANGELOG.md
+
+**/CHANGELOG.md
