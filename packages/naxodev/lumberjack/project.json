@@ -17,10 +17,10 @@
       },
       "configurations": {
         "production": {
-          "command": "yarn copy README.md dist/packages/naxodev/lumberjack"
+          "command": "pnpm copy README.md dist/packages/naxodev/lumberjack"
         },
         "development": {
-          "commands": "yarn copy README.md dist/packages/naxodev/lumberjack"
+          "commands": "pnpm copy README.md dist/packages/naxodev/lumberjack"
         }
       },
       "defaultConfiguration": "production",

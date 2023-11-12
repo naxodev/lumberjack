@@ -5,7 +5,7 @@
   },
   "cli": {
     "defaultCollection": "@nx/angular",
-    "packageManager": "yarn"
+    "packageManager": "pnpm"
   },
   "tasksRunnerOptions": {
     "default": {
