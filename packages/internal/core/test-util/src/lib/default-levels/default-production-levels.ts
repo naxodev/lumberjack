@@ -1,4 +1,4 @@
-import { LumberjackConfigLevels, LumberjackLevel } from '@lumberjackjs/core';
+import { LumberjackConfigLevels, LumberjackLevel } from '@naxodev/lumberjack';
 
 export const defaultProductionLevels: LumberjackConfigLevels = [
   LumberjackLevel.Critical,

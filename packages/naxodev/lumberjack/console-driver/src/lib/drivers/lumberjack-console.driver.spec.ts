@@ -6,7 +6,7 @@ import {
   createTraceLogBuilder,
   createWarningLogBuilder,
   LumberjackLevel,
-} from '@lumberjackjs/core';
+} from '@naxodev/lumberjack';
 import { createFakeTime, SpyConsole } from '@internal/core/test-util';
 
 import { LumberjackConsoleDriver } from './lumberjack-console.driver';

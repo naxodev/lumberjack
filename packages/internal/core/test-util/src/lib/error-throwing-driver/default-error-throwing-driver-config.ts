@@ -1,4 +1,4 @@
-import { LumberjackLevel } from '@lumberjackjs/core';
+import { LumberjackLevel } from '@naxodev/lumberjack';
 
 import { errorThrowingDriverIdentifier } from './create-error-throwing-driver';
 import { defaultErrorThrowingDriverOptions } from './default-error-throwing-driver-options';

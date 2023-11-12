@@ -1,4 +1,4 @@
-import { LumberjackDriver, LumberjackDriverLog } from '@lumberjackjs/core';
+import { LumberjackDriver, LumberjackDriverLog } from '@naxodev/lumberjack';
 
 import { ObjectDriverConfig } from './object-driver.config';
 import { ObjectLogger } from './object-logger';

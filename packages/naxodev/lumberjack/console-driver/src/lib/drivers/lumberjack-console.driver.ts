@@ -3,7 +3,7 @@ import {
   LumberjackDriverConfig,
   LumberjackDriverLog,
   LumberjackLogPayload,
-} from '@lumberjackjs/core';
+} from '@naxodev/lumberjack';
 
 import type { LumberjackConsoleDriverConfig } from '../configuration/lumberjack-console-driver.config';
 import { LumberjackConsole } from '../console/lumberjack-console';

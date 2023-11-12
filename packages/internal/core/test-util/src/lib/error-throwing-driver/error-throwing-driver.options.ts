@@ -1,4 +1,4 @@
-import { LumberjackDriverConfig } from '@lumberjackjs/core';
+import { LumberjackDriverConfig } from '@naxodev/lumberjack';
 
 import { ErrorThrowingDriverConfig } from './error-throwing-driver.config';
 

@@ -1,4 +1,4 @@
-import { LumberjackDriverConfig } from '@lumberjackjs/core';
+import { LumberjackDriverConfig } from '@naxodev/lumberjack';
 
 export interface ErrorThrowingDriverConfig extends LumberjackDriverConfig {
   /**

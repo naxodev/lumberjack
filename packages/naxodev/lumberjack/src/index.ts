@@ -1,5 +1,5 @@
 /*
- * Public API surface of @lumberjackjs/core
+ * Public API surface of @naxodev/lumberjack
  */
 
 // Configuration

@@ -1,4 +1,4 @@
-import { LumberjackLog } from '@lumberjackjs/core';
+import { LumberjackLog } from '@naxodev/lumberjack';
 
 import { LumberjackConfig } from '../configuration/lumberjack.config';
 import { LumberjackLevel } from '../logs/lumberjack-level';

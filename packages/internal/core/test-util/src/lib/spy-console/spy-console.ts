@@ -1,4 +1,4 @@
-import { LumberjackConsole } from '@lumberjackjs/core/console-driver';
+import { LumberjackConsole } from '@naxodev/lumberjack/console-driver';
 
 /**
  * Spy console logger.

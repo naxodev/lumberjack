@@ -1,4 +1,4 @@
-import { LumberjackDriverConfig, LumberjackLogPayload } from '@lumberjackjs/core';
+import { LumberjackDriverConfig, LumberjackLogPayload } from '@naxodev/lumberjack';
 
 import { SpyDriverConfig } from './spy-driver.config';
 import { SpyDriver } from './spy.driver';

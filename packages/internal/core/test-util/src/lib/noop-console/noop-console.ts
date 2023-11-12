@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { LumberjackConsole } from '@lumberjackjs/core/console-driver';
+import { LumberjackConsole } from '@naxodev/lumberjack/console-driver';
 
 /**
  * No-op console logger.

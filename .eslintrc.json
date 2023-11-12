@@ -108,12 +108,12 @@
             "group-ordering": [
               {
                 "name": "project root",
-                "match": "^@(?!(lumberjackjs|internal)).*|^[a-zA-Z].*",
+                "match": "^@(?!(naxodev|internal)).*|^[a-zA-Z].*",
                 "order": 20
               },
               {
                 "name": "internal imports",
-                "match": "^@(lumberjackjs|internal).*",
+                "match": "^@(naxodev|internal).*",
                 "order": 30
               },
               { "name": "parent directories", "match": "^\\.\\.", "order": 40 },

@@ -1,4 +1,4 @@
-import { LumberjackDriverConfig } from '@lumberjackjs/core';
+import { LumberjackDriverConfig } from '@naxodev/lumberjack';
 
 /**
  * Settings used by the console driver.

@@ -1,4 +1,4 @@
-import { LumberjackLevel, LumberjackLog, LumberjackLogLevel, LumberjackLogPayload } from '@lumberjackjs/core';
+import { LumberjackLevel, LumberjackLog, LumberjackLogLevel, LumberjackLogPayload } from '@naxodev/lumberjack';
 import { createFakeTime } from '@internal/core/test-util';
 
 import { LumberjackLogBuilder } from './lumberjack-log.builder';

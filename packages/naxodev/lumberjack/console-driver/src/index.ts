@@ -1,5 +1,5 @@
 /*
- * Public API surface of @lumberjackjs/angular/console-driver
+ * Public API surface of @naxodev/lumberjack/console-driver
  */
 
 //Configuration
